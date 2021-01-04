@@ -1,0 +1,20 @@
+name: 'Submit_test_action'
+author: 'SkillsCheck'
+description: 'Submit the test of a given candidate'
+inputs:
+  candidate-github-username:  # id of input
+    description: 'the Github Username of the Candidate'
+    required: true
+  test-name:
+    description: 'the name of the Test that the candidate is submitting'
+    required: true
+  key:
+    description: 'the key'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
+
+branding:
+  icon: 'check'
+  color: 'cyan'
