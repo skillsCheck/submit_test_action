@@ -11,6 +11,9 @@ inputs:
   key:
     description: 'the key'
     required: true
+  event:
+    required: true
+    description: 'the event trigger'
 runs:
   using: 'node12'
   main: 'main.js'
