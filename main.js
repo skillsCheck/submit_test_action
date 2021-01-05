@@ -7,4 +7,6 @@ const input = {
     key: core.getInput('key')
 }
 
+console.log(input)
+
 // API CALL
