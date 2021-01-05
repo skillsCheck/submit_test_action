@@ -11,7 +11,7 @@ inputs:
   key:
     description: 'the key'
     required: true
-  event:
+  event-object:
     required: true
     description: 'the event trigger'
 runs:

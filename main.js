@@ -5,7 +5,7 @@ const input = {
     githubUsername: core.getInput('candidate-github-username'),
     testName: core.getInput('test-name'),
     key: core.getInput('key'),
-    event: core.getInput('event')
+    event: core.getInput('event-object')
 }
 
 console.log(input)
