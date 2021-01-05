@@ -8,5 +8,5 @@ const input = {
 }
 
 console.log(input)
-
+console.log({github: github})
 // API CALL
